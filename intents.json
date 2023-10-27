@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "Saludo",
+      "patterns": [
+        "Hola",
+        "Hola, como estas?",
+        "Buen dia",
+        "Hay alguien aquí?",
+        "Buenas tardes",
+        "Necesito ayuda"
+      ],
+      "responses": [
+        "Hola :-)",
+        "Hola, gracias por visitarme ",
+        "Hola, que puedo hacer por ti?",
+        "Hola, como puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "Chistes",
+      "patterns": [
+        "Contame un chiste",
+        "Podrias decirme un chiste",
+        "Chiste"
+      ],
+      "responses": [
+        "-Mi computadora pesa 2 kilos?, -Como sabes?, -Porque la PC",
+        "Que le dice una impresora a otra?... ¿Esta hoja es tuya o es impresión. mía?",
+        "¿Cuál es el último animal que subió al arca de Noé? El del-fin.",
+        "Un pez le pregunta a otro pez: ¿qué hace tu mamá? Este le contesta: Nada, ¿y la tuya qué hace? Nada también."
+      ]
+    },
+    {
+      "tag": "Despedida",
+      "patterns": ["Adios", "Hasta luego", "Nos vemos", "Chau"],
+      "responses": [
+        "Hasta luego, gracias por visitarme!",
+        "Que tengas un buen dia!",
+        "Adios! Vuelve pronto."
+      ]
+    },
+    {
+      "tag": "Agradecimiento",
+      "patterns": ["Gracias", "¡Gracias por tu ayuda!", "Te agradezco"],
+      "responses": ["De nada, ¡estoy aqui para ayudarte!", "Cuando necesites!", "Un placer."]
+    },
+    {
+      "tag": "Precios",
+      "patterns": [
+        "¿Cuánto cuesta un corte de pelo?", "¿Qué precios tienen?", "Dime los precios", "Precios"],
+      "responses": ["Nuestros precios varian segun el servicio. Te recomendamos consultar nuestra pagina web o llamarnos para obtener informacion detallada sobre los precios."]
+    },
+    {
+      "tag": "Pagos",
+      "patterns": [
+        "Aceptan tarjeta de debito?",
+        "Aceptan transferencias?",
+        "Solo efectivo?",
+        "Modo de pago",
+        "Metodo de pago",
+        "Como puedo pagar?"
+      ],
+      "responses": [
+        "Aceptamos debito, transferencias y efectivo."
+      ]
+    },
+    {
+      "tag": "Horarios",
+      "patterns": ["¿Cual es su horario de atención?", "Horarios", "¿A que hora abren y cierran?", "¿Que horarios manejan?"],
+      "responses": [
+        "Abrimos de Lunes a Viernes de 9 a 12 AM y  16 a 20 PM, los sabados solo de 9 a 12 AM.",
+        "De lunes a Viernes de 9 a 12 de la mañana y 16 a 20 de la tarde, los sabados abrimos solo por la mañana"
+      ]
+    },
+    {
+      "tag": "Ubicaciones",
+      "patterns": ["¿Donde estan ubicados?", "¿Cuál es su direccion?", "Direccion de la peluqueria","Ubicacion?" ],
+      "responses": [
+        "Estamos ubicados en Calle al 123 ", "Calle al 123"]
+    },
+    {
+      "tag": "Servicios",
+      "patterns": ["¿Que servicios ofrecen?", "Cuales son los servicios", "Servicios", "Dime los servicios que ofrecen"],
+      "responses": [
+        "Corte de Pelo para Hombres y Mujeres, Peinados y Estilizados, Tintes y Reflejos, Mechas y Destellos, Alisados y Ondulaciones,  Barberos Especializados"]
+    }
+  ]
+}
