@@ -17,3 +17,7 @@ venv/Scripts/activate
 >>> import nltk
 >>> nltk.download('punkt')
 ```
+**Ejecutar el frontend**
+1. La ejecucion se puede hacer con la extension de python en visual studio
+o
+2. Ejecutando el comando py app.py y entrando al link que proporciona la respuesta de la terminal
