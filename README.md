@@ -1,6 +1,6 @@
 **Clonar el repositorio y crear un entorno virtual**
 ```bash
-git clone https://github.com/python-engineer/chatbot-deployment.git
+git clone https://github.com/Joakkoo/Chatbot.git
 cd chatbot-deployment
 python -m venv venv
 venv/Scripts/activate
